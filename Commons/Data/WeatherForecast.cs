@@ -1,4 +1,4 @@
-namespace MauiApp1.Data;
+namespace Commons.Data;
 
 public class WeatherForecast
 {

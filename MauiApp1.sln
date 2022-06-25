@@ -4,9 +4,9 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp1", "MauiApp1\MauiApp1.csproj", "{535308F5-370D-41EA-98E7-1AE59437F607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{6259754F-11DD-41AE-8DB0-2A8B30BDF4B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{6259754F-11DD-41AE-8DB0-2A8B30BDF4B6}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{15AEE623-2480-4F6E-9E1C-BCBA6E350A45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commons", "Commons\Commons.csproj", "{2522FE05-8BAA-4190-BA51-31BEC1FFBFA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,14 +24,15 @@ Global
 		{6259754F-11DD-41AE-8DB0-2A8B30BDF4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6259754F-11DD-41AE-8DB0-2A8B30BDF4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6259754F-11DD-41AE-8DB0-2A8B30BDF4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2522FE05-8BAA-4190-BA51-31BEC1FFBFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2522FE05-8BAA-4190-BA51-31BEC1FFBFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2522FE05-8BAA-4190-BA51-31BEC1FFBFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2522FE05-8BAA-4190-BA51-31BEC1FFBFA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
-	EndGlobalSection
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		SharedProject1\SharedProject1.projitems*{15aee623-2480-4f6e-9e1c-bcba6e350a45}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
