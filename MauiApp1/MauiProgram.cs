@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+﻿using Commons.Data;
+
+using Microsoft.AspNetCore.Components.WebView.Maui;
 
 
 namespace MauiApp1;
@@ -19,8 +21,8 @@ public static class MauiProgram
 		#if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
-		
+        builder.Services.AddSingleton<WeatherForecastService>();		
 
-		return builder.Build();
+        return builder.Build();
 	}
 }
